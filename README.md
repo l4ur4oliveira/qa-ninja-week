@@ -1,4 +1,4 @@
-# QA Ninja Week #3 :mag_right:
+# QA Ninja Week :mag_right:
 
 Projeto desenvolvido utilizando o conceito BDD e Gherkin, com as tecnologias Ruby, Capybara e Cucumber.
 
