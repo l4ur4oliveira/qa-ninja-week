@@ -28,3 +28,7 @@ Funcionalidade: Cadastro de Usuário
       | l4ur4.88@gmail.com |         |                | Oops! Informe sua senha.             |
       | l4ur4.88@gmail.com | l4u1234 | l4u5678        | Oops! Senhas não são iguais.         |
       |                    |         |                | Oops! Informe seu email e sua senha. |
+
+  Cenario: Validação do campo email
+    Quando acesso a página de cadastro
+    Então deve exibir o seguinte css: "input[type=email]"
