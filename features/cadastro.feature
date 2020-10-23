@@ -8,7 +8,10 @@ Funcionalidade: Cadastro de Usuário
 @happy
 Cenario: Cadastro
   Dado que acesso a página de cadastro
-  Quando submeto meu cadastro com email, senha e confirmação de senha
+  Quando submeto meu cadastro com:
+      | email          | l4ur4.88@gmail.com |
+      | senha          | l4u1234            |
+      | senha_confirma | l4u1234            |
   Então devo ser redirecionado para a área logada
 
 Cenario: Email não informado
