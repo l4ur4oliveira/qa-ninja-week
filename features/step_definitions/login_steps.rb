@@ -1,15 +1,11 @@
 Dado('que acesso a página de login') do
-  visit "http://parodify.qaninja.com.br/"
-  click_on "Login"
+  goto_login()
 end
 
 Quando('submeto minhas credenciais com: {string} e {string}') do |email, senha|
-  find("#user_email").set email
-  find("#user_password").set senha
-  click_on "Log in"
+  login_with(email, senha)
 end
 
 Então('deve ver a mensagem de erro: {string}') do |expected_message|
-  message = find(".message .message-body")
-  expect(message.text).to eql expected_message
+  expect(login_message).to eql expected_message
 end

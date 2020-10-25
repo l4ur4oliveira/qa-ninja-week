@@ -7,3 +7,7 @@ Projeto desenvolvido utilizando o conceito BDD e Gherkin, com as tecnologias Rub
 - Instalar Ruby e [bundler](https://rubygems.org/gems/bundler) (gem)
 - Instalar dependências usando `bundle install`.
 - Iniciar projeto com `cucumber --init`
+
+## Run
+
+- Para executar os testes usar `cucumber [feature opcional]`
